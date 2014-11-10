@@ -26,3 +26,7 @@ The Zen of Python, by TimPeters:
 
 print 'number of sub bullets:'
 print len(re.findall('\n +[0-9]+', zen))
+match = re.search('better', zen)
+print 'first match from {0} to {1}'.format(match.start(), match.end())
+for match in re.finditer('\w+ is better than \w+', zen):
+    print match.group(0)
