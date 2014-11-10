@@ -1,8 +1,5 @@
 from unittest import TestCase
-from ex7_CodeToTest import *
-
-__author__ = 'bart_aelterman'
-
+from ex8_CodeToTest import *
 
 class TestSayHi(TestCase):
     def test_sayHi(self):
