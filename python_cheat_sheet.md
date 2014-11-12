@@ -265,7 +265,7 @@ Een functie callen
 Hello Bart
 ```
 
-### Files
+## Werken met files
 
 Een file openen
 
@@ -325,6 +325,8 @@ dir = os.path.dirname(os.paht.realpath(__file__))
 print dir
 ```
 
+## Csv files
+
 ### Csv files lezen
 
 ```
@@ -334,3 +336,5 @@ reader = csv.reader(f, delimiter=',')
 for row in reader:
     print row
 ```
+
+### Csv files schrijven
