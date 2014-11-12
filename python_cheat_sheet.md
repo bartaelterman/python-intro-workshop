@@ -311,10 +311,12 @@ Alle lijnen lezen van een file, en als een list teruggeven
 ['This is line1\n', 'And this is line2\n']
 ```
 
-Files zoeken
+Csv files zoeken in de huidige map
 
 ```
-glob
+import glob
+glob.glob('*.csv')
+['test.csv', 'data.csv']
 ```
 
 Directory van je script opvragen (lukt niet in de interpreter)
