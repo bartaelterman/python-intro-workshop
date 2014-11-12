@@ -338,3 +338,11 @@ for row in reader:
 ```
 
 ### Csv files schrijven
+
+```
+import csv
+f = open('outdata.csv', 'w+')
+writer = csv.writer(f, delimiter=',')
+writer.writerow(['one','two'])
+f.close()
+```
