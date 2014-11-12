@@ -175,6 +175,14 @@ Een item toevoegen aan een list op een specifieke plaats
 ['I', 'really', 'like', 'Python']
 ```
 
+Kijken of een item voorkomt in een lijst
+
+```
+>>> a = ['I', 'like', 'Python']
+>>> 'Python' in a
+True
+```
+
 Itereren over een list
 
 ```
